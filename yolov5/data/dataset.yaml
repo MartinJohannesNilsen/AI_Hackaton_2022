@@ -1,0 +1,9 @@
+# Train/val sets
+path: ../datasets/coral
+train: images/train2022
+val: images/train2022
+
+# Classes
+nc: 1
+names: ['coralreef']
+
