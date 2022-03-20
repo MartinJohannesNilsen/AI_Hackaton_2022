@@ -50,7 +50,7 @@ python train.py --img 320 --batch 16 --epochs 80 --data dataset.yaml --weights y
 
 ## Detektering med trente vekter
 ```
-python detect.py --weights runs/train/exp/weights/best.pt --img 320 --conf 0.1 --source {dataset.location}/test/images
+python detect.py --weights runs/train/exp26/weights/best.pt --img 320 --conf 0.1 --source ../datasets/coral/images/test2022 --data data/dataset.yaml
 ```
 * **weights**: specify path of weights as .pt-file
 * **img**: define input image size
