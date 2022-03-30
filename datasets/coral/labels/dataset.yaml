@@ -1,0 +1,6 @@
+names:
+- coralreef
+nc: 1
+path: ..
+train: labels/images
+val: labels/images

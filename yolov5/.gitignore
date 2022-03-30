@@ -1,14 +1,14 @@
 # Repo-specific GitIgnore ----------------------------------------------------------------------------------------------
-*.jpg
-*.jpeg
-*.png
+#*.jpg
+# *.jpeg
+#*.png
 *.bmp
 *.tif
 *.tiff
 *.heic
-*.JPG
-*.JPEG
-*.PNG
+# *.JPG
+# *.JPEG
+# *.PNG
 *.BMP
 *.TIF
 *.TIFF
@@ -24,9 +24,10 @@
 !cfg/yolov3*.cfg
 
 storage.googleapis.com
-runs/*
+
 data/*
 data/images/*
+#runs/*
 !data/*.yaml
 !data/hyps
 !data/scripts
